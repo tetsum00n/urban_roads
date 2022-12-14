@@ -1,6 +1,6 @@
 <div class="container-fluid bg-light pt-2">
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-        <a href="{$_layoutParams.root} " class="d-flex align-items-center text-dark text-decoration-none">
+        <a href="{$_layoutParams.root}" class="d-flex align-items-center text-dark text-decoration-none">
             <img src="{$_layoutParams.route_img}apple-touch-icon.png" alt="" width="40">
             {* <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img">
                 <path fill-rule="evenodd" clip-rule="evenodd"

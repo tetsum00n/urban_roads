@@ -1,39 +1,32 @@
 <!DOCTYPE html>
-<html>
-   <head>
-   	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="frame de aplicaciones web">
-
-    <title>{$title|default:"AxiomaFrame"}</title>
-
+<html lang="en">
+  <head>
+    <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <!-- Twitter meta-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya">
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vali Admin">
+    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+    <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title>{$title|default:"Urban Roads"}</title>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    {include file="link_css.tpl"}
-
-
-   </head>
-   <body>
-  {include file="menu.tpl"}
-
-      <div class="container">
-
-
-            {include file=$_content}
-          </div>
-
-    {include file="link_js.tpl"}
-
-    <noscript>
-      <p>Debe tener el soporte de Javascript habilitado</p>
-    </noscript>
-
-    {if isset($_layoutParams.js) && count($_layoutParams.js)}
-      {foreach item=js from=$_layoutParams.js}
-        <script type="text/javascript" src="{$js}"></script>
-      {/foreach}
-
-    {/if}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{include file="link_css.tpl"}}
+  </head>
+  <body class="app sidebar-mini">
+  {{include file="header.tpl"}}
+  {{include file="sidebar.tpl"}}
+     
+  <main class="app-content">
+    {{include file="tema.tpl"}}
+    {{include file=$_content}} 
+  </main>
+    {{include file="link_js.tpl"}}
   </body>
 </html>

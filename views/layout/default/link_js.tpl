@@ -1,4 +1,8 @@
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-</script>
+<!-- Essential javascripts for application to work-->
+<script src="{$_layoutParams.route_js}jquery-3.3.1.min.js"></script>
+<script src="{$_layoutParams.route_js}popper.min.js"></script>
+<script src="{$_layoutParams.route_js}bootstrap.min.js"></script>
+<script src="{$_layoutParams.route_js}main.js"></script>
+<!-- The javascript plugin to display page loading on top-->
+<script src="{$_layoutParams.route_js}plugins/pace.min.js"></script>
+<!-- Page specific javascripts-->
