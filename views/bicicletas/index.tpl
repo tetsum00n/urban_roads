@@ -1,25 +1,9 @@
 <div class="col-lg-6 col-md-auto mx-auto">
     {include file="../partials/_messages.tpl"}
-    <b><h1 class="fw-secondary">Bienvenidos a Urban Roads</h1></b>
-    <br></br>
-    <br></br>
-
-    <b><h5>Te gustaría saber como sería tu vida arriba de una bicicleta o scooter eléctrico?</h5></b>
-
-    <p class="lead text-muted"> Prueba nuestras distintas modalidades y productos en arriendo! Solo llena el formulario de contacto y una vez estes con tu cuenta, podras ver un catalogo completo de opciones!</p>
-
-    <p>
-        <a href="{$_layoutParams.root}login/login" class="btn btn-primary btn-lg">Iniciar Sesión</a>
-        
-    <br></br>
-
-        <a href="{$_layoutParams.root}users/add" class="btn btn-secondary btn">Nuevo Usuario</a>       
-    </p>
+    <b><h1 class="fw-secondary">Bicicletas</h1></b>
+    <b><h5>Tenemos el mas variado stock de bicicletas a pedal en el mercado, solo ingresa el nombre y te contactaremos para el arriendo!</h5></b>
 
 </div>
-
-<br></br>
-<b><h5>Algunos modelos disponibles</h5></b>
 <br></br>
 <p>
 <div class="row row-cols-1 row-cols-md-2 g-4">

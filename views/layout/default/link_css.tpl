@@ -1,5 +1,5 @@
 
-<link rel="icon" type="image/png" sizes="16x16" href="{$_layoutParams.route_img}favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="{$_layoutParams.route_img}favicon-16x16.ico">
 
 <!-- Main CSS-->
 <link rel="stylesheet" type="text/css" href="{$_layoutParams.route_css}main.css">

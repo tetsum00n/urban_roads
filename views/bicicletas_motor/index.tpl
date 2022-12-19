@@ -1,32 +1,16 @@
 <div class="col-lg-6 col-md-auto mx-auto">
     {include file="../partials/_messages.tpl"}
-    <b><h1 class="fw-secondary">Bienvenidos a Urban Roads</h1></b>
-    <br></br>
-    <br></br>
-
-    <b><h5>Te gustaría saber como sería tu vida arriba de una bicicleta o scooter eléctrico?</h5></b>
-
-    <p class="lead text-muted"> Prueba nuestras distintas modalidades y productos en arriendo! Solo llena el formulario de contacto y una vez estes con tu cuenta, podras ver un catalogo completo de opciones!</p>
-
-    <p>
-        <a href="{$_layoutParams.root}login/login" class="btn btn-primary btn-lg">Iniciar Sesión</a>
-        
-    <br></br>
-
-        <a href="{$_layoutParams.root}users/add" class="btn btn-secondary btn">Nuevo Usuario</a>       
-    </p>
+    <b><h1 class="fw-secondary">Bicicletas Motorizadas</h1></b>
+    <b><h5>Tenemos el mas variado stock de bicicletas con motor en el mercado, solo ingresa el nombre y te contactaremos para el arriendo!</h5></b>
 
 </div>
-
-<br></br>
-<b><h5>Algunos modelos disponibles</h5></b>
 <br></br>
 <p>
 <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="card border-secondary mb-3" style="width: 18rem;">
-    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Medium/1561670079_bc3313a639ad49f8bb87d45d133e9f64.1073.jpeg" class="card-img-top" alt="...">
+    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1653581535_c3a2951e18f9f6b9adb9558ff68c5f00.1073.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
-    <p class="card-text">Scooter Eléctrico Cero E8</p>
+    <p class="card-text">Bicicleta Eléctrica Cero M1Fat</p>
     </div>
     </div>
     <div class="card border-secondary mb-3" style="width: 18rem;">
@@ -69,19 +53,19 @@
     <div class="card border-secondary mb-3" style="width: 18rem;">
     <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1669989191_f59820de706b4c8987a693bf56c10cb5.1073.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
-    <p class="card-text">Bicicleta Eléctrica Cero M6S</p>
-    </div>
-    </div>
-    <div class="card border-secondary mb-3" style="width: 18rem;">
-    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1634589687_b70db9a220b7fed2bd9ec165aa147a07.1073.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
     <p class="card-text">Bicicleta Eléctrica Cero M7</p>
     </div>
     </div>
     <div class="card border-secondary mb-3" style="width: 18rem;">
-    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1609273719_858cd95c374426269ec009d725bec430.1073.jpeg" class="card-img-top" alt="...">
+    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1596923252_de46c124870baf8d7e4b4923f34f2013.1073.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
-    <p class="card-text">Scooter Eléctrico Cero E4</p>
+    <p class="card-text">Bicicleta Eléctrica Cero M4Cargo</p>
+    </div>
+    </div>
+    <div class="card border-secondary mb-3" style="width: 18rem;">
+    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1668628385_3346bdb1289060a61a2a10ce45eaf67d.1073.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">Bicicleta Eléctrica Cero M9</p>
     </div>
     </div>
     <div class="card border-secondary mb-3" style="width: 18rem;">
@@ -91,9 +75,9 @@
     </div>
     </div>
     <div class="card border-secondary mb-3" style="width: 18rem;">
-    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1616858841_494b9b67b45ddc536f63df6cb41ca881.1073.png" class="card-img-top" alt="...">
+    <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Original/1569612618_4fdc81634554456e2a2c42dfa1750bc3.1073.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
-    <p class="card-text">Triciclo Eléctrico Razor Drift Rider</p>
+    <p class="card-text">Bicicleta Eléctrica Oxford EzWay marco bajo</p>
     </div>
     </div>
 </div>

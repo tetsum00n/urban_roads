@@ -1,27 +1,14 @@
 <div class="col-lg-6 col-md-auto mx-auto">
     {include file="../partials/_messages.tpl"}
     <b><h1 class="fw-secondary">Bienvenidos a Urban Roads</h1></b>
-    <br></br>
-    <br></br>
 
-    <b><h5>Te gustaría saber como sería tu vida arriba de una bicicleta o scooter eléctrico?</h5></b>
-
-    <p class="lead text-muted"> Prueba nuestras distintas modalidades y productos en arriendo! Solo llena el formulario de contacto y una vez estes con tu cuenta, podras ver un catalogo completo de opciones!</p>
-
-    <p>
-        <a href="{$_layoutParams.root}login/login" class="btn btn-primary btn-lg">Iniciar Sesión</a>
-        
-    <br></br>
-
-        <a href="{$_layoutParams.root}users/add" class="btn btn-secondary btn">Nuevo Usuario</a>       
-    </p>
-
+    <b><h5>Mira nuestros productos especiales!</h5></b>
 </div>
 
-<br></br>
-<b><h5>Algunos modelos disponibles</h5></b>
-<br></br>
-<p>
+    <p>
+    <div class="container text-center">
+    <div class="row align-items-start">
+  
 <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="card border-secondary mb-3" style="width: 18rem;">
     <img src="https://s3.amazonaws.com/storage.wobiz.com/1/1073/images/Medium/1561670079_bc3313a639ad49f8bb87d45d133e9f64.1073.jpeg" class="card-img-top" alt="...">
@@ -97,6 +84,10 @@
     </div>
     </div>
 </div>
+</div>
+</div>
 </p>
 
-
+<p class="lead text-muted"> Si deseas ver mas, solo haz click en la barra izquierda, tendras un mundo de productos!</p>
+    
+    
